@@ -4,7 +4,7 @@ a simple react markdown previewer that is also mobile friendly 📱
 
 ## Demo
 
-[Github Page](https://dev-caspertheghost.github.io/react-markdown-previewer/)
+[Github Pages](https://dev-caspertheghost.github.io/react-markdown-previewer/)
 
 ## What I learned
 
