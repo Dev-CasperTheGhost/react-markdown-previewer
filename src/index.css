@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,15 +22,16 @@
 }
 
 .header-link {
-  margin-left: 20px;
   text-decoration: none;
   color: rgb(19, 19, 19);
   font-size: 20px;
-  transition: color 0.3s;
+  transition: background 0.3s, color 0.2s;
+  padding: 10px;
 }
 
 .header-link:hover {
-  color: rgb(163, 163, 163);
+  color: #f2f2f2;
+  background-color: rgb(45, 45, 45);
 }
 
 .container {
@@ -105,14 +104,12 @@
   .header {
     flex-direction: row;
   }
-
   .previewer {
     display: flex;
     flex-direction: row;
     width: 90%;
     height: 90%;
   }
-
   .preview {
     margin-top: 0;
     margin-left: 20px;
